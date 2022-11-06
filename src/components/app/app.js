@@ -24,8 +24,8 @@ const data = [
 ];
 
 function App() {
-  function onClick() {
-    console.log("hello");
+  function f1() {
+    console.log("555");
   }
 
   return (
@@ -36,7 +36,7 @@ function App() {
         <SearchPanel />
         <AppFilter />
         <EmployersList data={data} />
-        <EmployersAddForm />
+        <EmployersAddForm onClick={f1} />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import "./employers-add-form.css";
 
-const EmployersAddForm = () => {
+const EmployersAddForm = ({ onClick }) => {
   return (
     <div className="app-add-form">
       <h3>Добавьте нового сотрудника</h3>
@@ -16,11 +16,7 @@ const EmployersAddForm = () => {
           placeholder="З/П в $?"
         />
 
-        <button
-          onClick={onClick}
-          type="submit"
-          className="btn btn-outline-light"
-        >
+        <button onClick={onClick} type="submit" className="btn btn-outline-light">
           Добавить
         </button>
       </form>
