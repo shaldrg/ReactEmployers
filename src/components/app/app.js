@@ -24,9 +24,6 @@ const data = [
 ];
 
 function App() {
-  function f1() {
-    console.log("555");
-  }
 
   return (
     <div className="app">
@@ -36,7 +33,7 @@ function App() {
         <SearchPanel />
         <AppFilter />
         <EmployersList data={data} />
-        <EmployersAddForm onClick={f1} />
+        <EmployersAddForm/>
       </div>
     </div>
   );
