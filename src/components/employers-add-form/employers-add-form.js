@@ -18,7 +18,7 @@ const EmployersAddForm = () => {
 
                 <button onClick={(e) => {
                     e.preventDefault()
-                    console.log("yeah")
+                    
                 }} type="button" className="btn btn-outline-light">
                     Добавити
                 </button>
